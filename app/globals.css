@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "mafs/core.css";
+@import "mafs/font.css";
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
