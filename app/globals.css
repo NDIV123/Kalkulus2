@@ -11,10 +11,42 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/* MATERI VEKTOR */
+.vektorperkalian {
+  position: static;
+  margin-top: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.sudut2vektor {
+  position: static;
+  margin-top: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.cosinusarah {
+  position: static;
+  margin-top: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+
 input[type=number] {
+<<<<<<< HEAD
     -moz-appearance: textfield;
   }
 
   .mainHelp {
     background: url(../public/cobaan.jpg) no-repeat center center fixed;
   }
+=======
+  -moz-appearance: textfield;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+>>>>>>> 7ce86be09a3dc0f9dfc1efc43e53ef09e7d39dfa
