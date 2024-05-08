@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* MATERI VEKTOR */
+.vektorperkalian {
+    position: static;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.sudut2vektor {
+    position: static;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.cosinusarah {
+    position: static;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
