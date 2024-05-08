@@ -11,6 +11,29 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/* MATERI VEKTOR */
+.vektorperkalian {
+  position: static;
+  margin-top: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.sudut2vektor {
+  position: static;
+  margin-top: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.cosinusarah {
+  position: static;
+  margin-top: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+
 input[type=number] {
   -moz-appearance: textfield;
 }

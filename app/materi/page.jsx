@@ -2,7 +2,7 @@ import MateriPage from "../(tampilan)/Materi"
 
 const page = () => {
   return (
-    <MateriPage/>
+    <MateriPage />
   )
 }
 
