@@ -37,11 +37,7 @@ const Navbar = () => {
           </li>
           </ul>
         </div>
-<<<<<<< HEAD
         <a className="btn btn-ghost text-xl">Universitas Siliwangi</a>
-=======
-        <a className="btn btn-ghost text-xl">Kelompok 3</a>
->>>>>>> 7ce86be09a3dc0f9dfc1efc43e53ef09e7d39dfa
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-4">
@@ -49,11 +45,7 @@ const Navbar = () => {
             <a>Home</a>
           </li>
           <li>
-<<<<<<< HEAD
             <a>Menghitung</a>
-=======
-            <a>Materi</a>
->>>>>>> 7ce86be09a3dc0f9dfc1efc43e53ef09e7d39dfa
           </li>
           <li>
             <a>Help</a>

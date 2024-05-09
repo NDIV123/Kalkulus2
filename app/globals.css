@@ -2,21 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "mafs/core.css";
-@import "mafs/font.css";
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 
 /* MATERI VEKTOR */
 .vektorperkalian {
   position: static;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 270px;
   text-align: center;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 5px 5px 8px 0 white;
+  width: 800px;
+  height: 400px;
+}
+
+.judul {
+  font-size: 40px;
+}
+
+.pmateri1 {
+  margin: 10px;
+  padding: 50px;
 }
 
 .sudut2vektor {
@@ -32,21 +41,3 @@ input::-webkit-inner-spin-button {
   margin-left: 100px;
   text-align: center;
 }
-
-
-input[type=number] {
-<<<<<<< HEAD
-    -moz-appearance: textfield;
-  }
-
-  .mainHelp {
-    background: url(../public/cobaan.jpg) no-repeat center center fixed;
-  }
-=======
-  -moz-appearance: textfield;
-}
-
-* {
-  scroll-behavior: smooth;
-}
->>>>>>> 7ce86be09a3dc0f9dfc1efc43e53ef09e7d39dfa
