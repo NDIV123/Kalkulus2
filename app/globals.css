@@ -4,15 +4,9 @@
 
 
 /* MATERI VEKTOR */
-/* body {
-  display: flex;
-  align-items: center;
-} */
-
 .section {
   max-width: 1100px;
   width: 100%;
-  margin-top: 50px;
   position: relative;
 }
 
@@ -33,15 +27,15 @@
 
 .section i:first-child {
   margin-left: 270px;
-  margin-top: 30px;
+  margin-top: -30px;
 }
 
 .section i:last-child {
   margin-left: 1070px;
-  margin-top: 30px;
+  margin-top: -30px;
 }
 
-.section .ul-list {
+.section .ul-listMateri {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: calc((100 / 3) - 12px);
@@ -50,10 +44,10 @@
   margin-top: 100px;
   margin-left: 270px;
   text-align: center;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
-/* .ul-list .card {
+.ul-listMateri .cardMateri {
   list-style: none;
   background: linear-gradient(to left top, #031A9A, #8B53FF);
   border-radius: 8px;
@@ -65,23 +59,23 @@
   flex-direction: column;
 }
 
-.card {
+.cardMateri {
   border-radius: 5px;
   padding: 50px;
   box-shadow: 5px 5px 8px 0 white;
   width: 800px;
   height: 400px;
   position: static;
-} */
+}
 
 .judul {
   font-size: 40px;
 }
 
-/* p {
+.paragrafmateri {
   margin: 10px;
   padding: 50px;
-} */
+}
 
 @media screen and (max-widht:900px) {
   .section .ul-list {
