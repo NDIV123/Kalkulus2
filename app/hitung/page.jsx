@@ -1,18 +1,9 @@
 "use client";
-
-import { Coordinates, Mafs, Point, Vector } from "mafs";
 import { useRef, useState } from "react";
-import {
-  angleBetweenVectors,
-  dotProduct,
-  kosinusA,
-  kosinusB,
-  kosinusC,
-} from "../libs/function";
 import HasilHitung from "../components/hasilHitung";
 
+
 const HitungPage = () => {
-  const [vectorList, setVectorList] = useState([]);
   const [idList, setIdList] = useState(0);
   const [hasil, setHasil] = useState(null);
 
@@ -58,7 +49,7 @@ const HitungPage = () => {
           vektor2K.current.value
         );
 
-    setVectorList([...vectorList, data]);
+        setHasil(data)
 
     data.vector1.length === 3
       ? setHasil({
@@ -92,17 +83,24 @@ const HitungPage = () => {
           },
         });
 
-        console.log(hasil)
   };
 
   return (
     <div className="flex justify-center items-center">
       <div className="flex flex-col justify-center items-center gap-5">
-        <h1 className="text-3xl font-bold mb-8">Vector Calculator</h1>
+        <h1 className="text-3xl font-bold mb-8 text-center">
+          Vector Calculator
+        </h1>
         <div className="grid grid-cols-3 gap-4 text-center">
-          <div></div>
-          <div>Vektor 1</div>
-          <div>Vektor 2</div>
+          <div className="items-center justify-center">
+            <button className="btn btn-outline"> Help</button>
+          </div>
+          <div className="flex items-center justify-center h-full">
+            <h1 className="text-sm">Vektor 1</h1>
+          </div>
+          <div className="flex items-center justify-center h-full">
+            <h2 className="text-sm">Vektor 2</h2>
+          </div>
           {/* untuk Variabel I */}
           <div className="text-center">I</div>
           <div>
@@ -136,8 +134,9 @@ const HitungPage = () => {
             Hitung
           </button>
         </div>
-        {hasil ? <HasilHitung hasil={hasil} /> : null}
       </div>
+      <HasilHitung prop={hasil} />
+      
     </div>
   );
 };
